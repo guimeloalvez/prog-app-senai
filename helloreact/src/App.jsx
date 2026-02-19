@@ -1,13 +1,12 @@
 import './App.css'
-import Cabecalho from './components/Cabecalho';
-import Corpo from './components/Corpo';
+import Semana from './components/Semana';
 
 function App() {
 
   return (
     <>
-      <Cabecalho />
-      <Corpo />
+    <h1>Teste</h1>
+    <Semana />
     </>
   )
 }
