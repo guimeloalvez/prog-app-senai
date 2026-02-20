@@ -1,3 +1,5 @@
+import './Semana.css'
+
 function Semana() {
 
     function verificarDia(){
@@ -23,7 +25,7 @@ function Semana() {
     }
 
     return (
-        <div>
+        <div className = {"container-dia"}>
             <h2>Dia da Semana</h2>
             <button onClick={verificarDia}>Veificar dia</button>
         </div>
