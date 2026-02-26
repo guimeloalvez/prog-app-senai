@@ -5,6 +5,10 @@ function Paridade() {
     function calcularParidade() {
         let numero = Number(prompt('Digita um número ai:'))
 
+        if(isNaN(numero)) {
+            alert('Digita namoral ai mano')
+            return;
+        }
         if(numero % 2 == 0) {
             alert('Par')
         } else {
