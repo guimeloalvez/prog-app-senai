@@ -18,8 +18,8 @@ function Hotel() {
 
         let valorBruto = diarias * valorDiaria
 
-        let emocional = valorDiaria * 10/100
-        let carteirinha = valorDiaria * 15/100;
+        let emocional = valorBruto * 10/100
+        let carteirinha = valorBruto * 15/100;
         let valorTotal = valorBruto - emocional - carteirinha + 150
 
         setSaida(`Valor final: ${valorTotal.toFixed(2)}.`)
