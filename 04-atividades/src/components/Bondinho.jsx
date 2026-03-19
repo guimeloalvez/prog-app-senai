@@ -11,8 +11,11 @@ function Bondinho() {
         let a = Number(alunos)
         let m = Number(monitores)
         let peso = a + m
-        
-        if(peso <= 50) {
+        if(a < 1) {
+            setResultado('Tem que ter pelo menos 1 aluno!')
+        } else if(m < 1) {
+            setResultado('Tem que ter pelo menos 1 monitor!')
+        } else if(peso <= 50) {
             setResultado('Autorizado!')
         } else if(peso > 50) {
             setResultado('Pessoas demais!')

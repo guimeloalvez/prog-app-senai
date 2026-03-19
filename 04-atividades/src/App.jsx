@@ -6,11 +6,15 @@ import Pneu from './components/Pneu.jsx';
 import Hohoho from './components/Hohoho';
 import Media from './components/Media';
 import Bondinho from './components/Bondinho';
+import Pum from './components/Pum';
+import Posto from './components/Posto';
 
 function App() {
 
   return (
     <>
+    <Posto />
+    <Pum />
     <Bondinho />
     <Media />
     <Hohoho />
