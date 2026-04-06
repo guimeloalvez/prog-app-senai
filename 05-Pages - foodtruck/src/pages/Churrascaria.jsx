@@ -1,16 +1,24 @@
 import './Paginas.css'
 
-function churrascaria() {
+function Churrascaria() {
   return (
-    <div className={'cont-churrascaria'}>
-      <h1>Churrascaria</h1>
-      <p>
-        Do Gildo Teixeira Fagundes Filho (carinhosamente chamado de Seu Gildāo pelos amigos e de “ô Gaúcho” pelos clientes).
-
-        O filho do Gildo, Gildo Teixeira Fagundes Neto (mais conhecido pelo nome comercial: Fagundes Neto), enche a Kombi de polar no fim do ano e passa o verão veraneando nos ingleses e vendendo polar pra gaúcho saudosista. No fim do verão, enche a Kombi de pureza e volta pro RS .
-        </p>
+    <div className='cont-churrascaria'>
+      <img src="/churras.jpg" alt="Churrascaria do Gaúcho" className="img-food" />
+      
+      <h1>Churrascaria do Gaúcho</h1>
+      <h3>Proprietário: Gildo Teixeira Fagundes Filho (Seu Gildão)</h3>
+      
+      <div className="card-info">
+        <p>Atendimento carinhoso do "ô Gaúcho" para todos os clientes.</p>
+        <h4>Nosso Cardápio:</h4>
+        <ul>
+          <li>Costela no fogo de chão</li>
+        </ul>
+        <h4>Bebidas:</h4>
+        <p>Pepsi e Cerveja Polar</p>
+      </div>
     </div>
   )
 }
 
-export default churrascaria
+export default Churrascaria

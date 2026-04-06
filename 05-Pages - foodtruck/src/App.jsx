@@ -15,7 +15,7 @@ function App() {
       <div className='cont-app'>
         <header className={'cont-header'}>
           <nav>
-            <button className={'botoes-nav'} onClick={() => setTela(<Churrascaria />)}>Home</button>
+            <button className={'botoes-nav'} onClick={() => setTela(<Churrascaria />)}>Churrascaria</button>
             <button className={'botoes-nav'} onClick={() => setTela(<Taberna />)}>Taberna</button>
             <button className={'botoes-nav'} onClick={() => setTela(<Coxao />)}>Coxao</button>
           </nav>
