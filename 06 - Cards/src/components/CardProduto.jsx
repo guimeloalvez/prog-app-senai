@@ -3,9 +3,15 @@ import './CardProduto.css'
 function CardProduto(prop) {
     return (
         <div className="cont-card">
-            <p className="imagem-produto">{prop.p.imagem}</p>
+            <div className="imagem-produto">
+                <img 
+                    src={prop.p.imagem} 
+                    alt={prop.p.nome} 
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
+                />
+            </div>
             <h2>{prop.p.nome}</h2>
-            <p>R${prop.p.preco.toFixed(2).replace(".", ",")}</p>
+            <p>R$ {prop.p.preco.toFixed(2).replace(".", ",")}</p>
         </div>
     )
 }
