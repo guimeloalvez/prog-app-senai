@@ -1,0 +1,27 @@
+.cont-post {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.emoji-post {
+    font-size: 1.5em;
+}
+
+.conteudo-post {
+    flex: 1;
+}
+
+.conteudo-post p {
+    margin: 0 0 4px 0;
+}
+
+.conteudo-post small {
+    color: #0066cc;
+}
+
+.curtidas-post {
+    font-size: 0.9em;
+}
